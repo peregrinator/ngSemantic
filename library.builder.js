@@ -11,7 +11,8 @@ var config = {
     },
     map: {
         "typescript": './node_modules/typescript/lib/typescript.js',
-        "@angular": path.resolve('node_modules/@angular')
+        "@angular": path.resolve('node_modules/@angular'),
+        "rxjs": path.resolve('node_modules/rxjs')
     },
     paths: {
         '*': '*.js'
